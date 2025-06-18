@@ -33,3 +33,17 @@ const getArea = (length, width, unit) => {
   const area = length * width
   return `${area} ${unit}`
 }
+
+/*
+If arrow function has only one parameter, omit parenthesis
+--No or multiple parameters need parenthesis, or syntax error
+
+--Implicit Returns--
+const square = x => x * x;
+const multiply = (x, y) => x * y;
+
+If function body is only one line of code, omit curly braces and return statement as show above/below
+
+const name = "Jesse";
+const greeting = () => alert(`Greetings, ${name}!`);
+*/
